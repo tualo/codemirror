@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@codemirror/gutter": "^0.19.9",
+    "@codemirror/highlight": "^0.19.8",
+    "@codemirror/history": "^0.19.2",
+    "@codemirror/lang-html": "^6.4.3",
+    "@codemirror/lang-javascript": "^6.1.6",
+    "@codemirror/lang-markdown": "^6.1.1",
+    "@codemirror/lang-sql": "^6.4.1",
+    "@codemirror/rectangular-selection": "^0.19.2",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "codemirror": "^6.0.1",
+    "rollup": "^3.20.2"
+  }
+}
