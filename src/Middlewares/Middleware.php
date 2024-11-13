@@ -18,7 +18,7 @@ class Middleware implements IMiddleware{
                 TualoApplication::stylesheet("./dashboard/shake.css" ,100000);
                 TualoApplication::javascript('dashboard_app', './dashboard/Application.js',[],100000);
                 */
-                TualoApplication::javascript('codemirror_bundle', './codemirror/editor.bundle.js',[],100000);
+                // TualoApplication::javascript('codemirror_bundle', './codemirror/editor.bundle.js',[],100000);
             }catch(\Exception $e){
                 TualoApplication::set('maintanceMode','on');
                 TualoApplication::addError($e->getMessage());
